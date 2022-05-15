@@ -2,9 +2,9 @@
 
 namespace FactoryMethodPattern.Concretes;
 
-public class XiaomiSmartPhoneFactory : SmartPhoneFactory
+public class XiaomiSmartPhoneFactory : ISmartPhoneFactory
 {
-    public override SmartPhone CreateSmartPhone()
+    public SmartPhone CreateSmartPhone()
     {
         return new XiaomiSmartPhone();
     }

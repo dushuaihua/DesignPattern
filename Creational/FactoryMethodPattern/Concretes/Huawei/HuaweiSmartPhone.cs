@@ -8,7 +8,6 @@ public class HuaweiSmartPhone : SmartPhone
     {
         Console.WriteLine("Huawei smart phone turn on...");
     }
-
     public override void Working()
     {
         Console.WriteLine("Huawei smart phone working...");
