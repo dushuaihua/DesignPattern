@@ -2,11 +2,11 @@
 
 namespace AbstractFactoryPattern
 {
-    public class Runner
+    public class Client
     {
         IPeripheralFactory _peripheralFactory;
 
-        public Runner(IPeripheralFactory peripheralFactory)
+        public Client(IPeripheralFactory peripheralFactory)
         {
             _peripheralFactory = peripheralFactory;
         }
@@ -28,6 +28,5 @@ namespace AbstractFactoryPattern
             Keyboard.Input();
             Mouse.Move();
         }
-
     }
 }

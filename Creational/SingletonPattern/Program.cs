@@ -1,8 +1,8 @@
 ﻿//Version 1
-new Version1().Run();
+new SingletonPattern.Version1.Client().Run();
 //Version 2
-new Version2().Run();
+new SingletonPattern.Version2.Client().Run();
 //Version 3
-new Version3().Run();
+new SingletonPattern.Version3.Client().Run();
 //Version 4
-new Version4().Run();
+new SingletonPattern.Version4.Client().Run();

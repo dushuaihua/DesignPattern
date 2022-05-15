@@ -1,10 +1,10 @@
-﻿namespace SingletonPattern.Version4;
+﻿namespace SingletonPattern.Version2;
 
-public class Version4
+public class Client
 {
     public void Run()
     {
-        Console.WriteLine($"{GetType().Name} is running...");
+        Console.WriteLine($"{GetType().Name} is working...");
 
         var instance1 = Singleton.Instance;
         var instance2 = Singleton.Instance;
@@ -12,18 +12,19 @@ public class Version4
         Console.WriteLine(ReferenceEquals(instance1, instance2));
 
         //Mutiple thread tests
+        Singleton instance3 = default, instance4 = default;
         Thread thread1 = new(() =>
         {
-            instance1 = Singleton.Instance;
+            instance3 = Singleton.Instance;
         });
         Thread thread2 = new(() =>
         {
-            instance2 = Singleton.Instance;
+            instance4 = Singleton.Instance;
         });
 
         thread1.Start();
         thread2.Start();
 
-        Console.WriteLine(ReferenceEquals(instance1, instance2));
+        Console.WriteLine(ReferenceEquals(instance3, instance4));
     }
 }

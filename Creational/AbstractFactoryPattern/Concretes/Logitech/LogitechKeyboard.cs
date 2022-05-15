@@ -1,4 +1,4 @@
-﻿namespace AbstractFactoryPattern.Implementions;
+﻿namespace AbstractFactoryPattern.Concretes;
 
 public class LogitechKeyboard : Keyboard
 {

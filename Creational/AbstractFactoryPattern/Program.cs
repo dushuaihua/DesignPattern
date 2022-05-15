@@ -1,15 +1,15 @@
 ﻿using AbstractFactoryPattern;
 using AbstractFactoryPattern.Abstracts;
-using AbstractFactoryPattern.Implementions;
+using AbstractFactoryPattern.Concretes;
 
 IPeripheralFactory peripheralFactory = new DellPeripheralFactory();
 
-var runner = new Runner(peripheralFactory);
+var client = new Client(peripheralFactory);
 
-runner.BuildPeripheral();
-runner.UsePeripheral();
+client.BuildPeripheral();
+client.UsePeripheral();
 
 peripheralFactory = new LogitechPeripheralFactory();
-runner = new Runner(peripheralFactory);
-runner.BuildPeripheral();
-runner.UsePeripheral();
+client = new Client(peripheralFactory);
+client.BuildPeripheral();
+client.UsePeripheral();
