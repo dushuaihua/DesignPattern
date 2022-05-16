@@ -9,7 +9,7 @@ public class Workshop
         _carBuilder = carBuilder;
     }
 
-    public Car BuildCar()
+    public void BuildCar()
     {
         _carBuilder.BuildEngine();
         _carBuilder.BuildBody();
@@ -19,7 +19,10 @@ public class Workshop
         {
             _carBuilder.BuildWheel();
         }
+    }
 
+    public Car GetCar()
+    {
         return _carBuilder.GetCar();
     }
 }

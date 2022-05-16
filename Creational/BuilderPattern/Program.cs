@@ -1,7 +1,5 @@
-﻿ICarBuilder carBuilder = new HongqiCarBuilder();
-var hongqiCar = new Workshop(carBuilder).BuildCar();
+﻿ICarBuilder builder = new HongqiCarBuilder();
+var workshop = new Workshop(builder);
+workshop.BuildCar();
+var hongqiCar = workshop.GetCar();
 Console.WriteLine(hongqiCar);
-
-carBuilder = new WulingCarBuilder();
-var wulingCar = new Workshop(carBuilder).BuildCar();
-Console.WriteLine(wulingCar);
