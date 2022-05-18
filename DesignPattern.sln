@@ -15,7 +15,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractFactoryPattern", "C
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FactoryMethodPattern", "Creational\FactoryMethodPattern\FactoryMethodPattern.csproj", "{834F1539-6915-46F7-9D47-4331CF6E8F6E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuilderPattern", "Creational\BuilderPattern\BuilderPattern.csproj", "{3446D2D7-0266-43C0-9268-31BD9BA12A89}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BuilderPattern", "Creational\BuilderPattern\BuilderPattern.csproj", "{3446D2D7-0266-43C0-9268-31BD9BA12A89}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PropertyPattern", "Creational\PropertyPattern\PropertyPattern.csproj", "{972B4F5F-31B2-4F42-865D-CF97E5A9042E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{3446D2D7-0266-43C0-9268-31BD9BA12A89}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3446D2D7-0266-43C0-9268-31BD9BA12A89}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3446D2D7-0266-43C0-9268-31BD9BA12A89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{972B4F5F-31B2-4F42-865D-CF97E5A9042E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{972B4F5F-31B2-4F42-865D-CF97E5A9042E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{972B4F5F-31B2-4F42-865D-CF97E5A9042E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{972B4F5F-31B2-4F42-865D-CF97E5A9042E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -48,6 +54,7 @@ Global
 		{1D627340-8308-47F6-A78D-B46EAA2D8878} = {113F5E6E-F3B1-4AD5-8E7D-16E4A123224A}
 		{834F1539-6915-46F7-9D47-4331CF6E8F6E} = {113F5E6E-F3B1-4AD5-8E7D-16E4A123224A}
 		{3446D2D7-0266-43C0-9268-31BD9BA12A89} = {113F5E6E-F3B1-4AD5-8E7D-16E4A123224A}
+		{972B4F5F-31B2-4F42-865D-CF97E5A9042E} = {113F5E6E-F3B1-4AD5-8E7D-16E4A123224A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {86ADC084-455F-4420-93EC-96376F36B3BA}
