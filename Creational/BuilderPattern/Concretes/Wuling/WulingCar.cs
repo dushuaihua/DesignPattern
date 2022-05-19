@@ -1,4 +1,4 @@
-﻿namespace BuilderPattern.Concretes;
+﻿namespace BuilderPattern.Concretes.Wuling;
 
 class WulingCar : Car
 {

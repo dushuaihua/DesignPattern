@@ -1,4 +1,4 @@
-﻿namespace BuilderPattern.Concretes;
+﻿namespace BuilderPattern.Concretes.Wuling;
 
 public class WulingEngine : Engine
 {

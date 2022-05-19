@@ -1,4 +1,6 @@
-﻿namespace AbstractFactoryPattern.Concretes;
+﻿using AbstractFactoryPattern.Abstracts;
+
+namespace AbstractFactoryPattern.Concretes.Dell;
 
 public class DellKeyboard : Keyboard
 {

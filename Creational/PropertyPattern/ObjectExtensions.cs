@@ -1,7 +1,7 @@
 ﻿using System.Runtime.Serialization;
 using System.Runtime.Serialization.Formatters.Binary;
 
-namespace System
+namespace PropertyPattern
 {
     public static class ObjectExtensions
     {

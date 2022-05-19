@@ -1,6 +1,6 @@
 ﻿using AbstractFactoryPattern.Abstracts;
 
-namespace AbstractFactoryPattern.Concretes;
+namespace AbstractFactoryPattern.Concretes.Logitech;
 
 public class LogitechPeripheralFactory : IPeripheralFactory
 {

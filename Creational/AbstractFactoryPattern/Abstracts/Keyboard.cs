@@ -1,4 +1,4 @@
-﻿namespace AbstractFactoryPattern;
+﻿namespace AbstractFactoryPattern.Abstracts;
 
 public abstract class Keyboard
 {
