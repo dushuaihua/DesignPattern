@@ -19,7 +19,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BuilderPattern", "Creationa
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PropertyPattern", "Creational\PropertyPattern\PropertyPattern.csproj", "{972B4F5F-31B2-4F42-865D-CF97E5A9042E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdapterPattern", "Structural\AdapterPattern\AdapterPattern.csproj", "{0F7CF5AB-57CD-40B4-B4BC-280385329694}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdapterPattern", "Structural\AdapterPattern\AdapterPattern.csproj", "{0F7CF5AB-57CD-40B4-B4BC-280385329694}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BridgePattern", "Structural\BridgePattern\BridgePattern.csproj", "{1D119279-33A2-49EE-A648-90F951DAB973}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{0F7CF5AB-57CD-40B4-B4BC-280385329694}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0F7CF5AB-57CD-40B4-B4BC-280385329694}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0F7CF5AB-57CD-40B4-B4BC-280385329694}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D119279-33A2-49EE-A648-90F951DAB973}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D119279-33A2-49EE-A648-90F951DAB973}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D119279-33A2-49EE-A648-90F951DAB973}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D119279-33A2-49EE-A648-90F951DAB973}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -62,6 +68,7 @@ Global
 		{3446D2D7-0266-43C0-9268-31BD9BA12A89} = {113F5E6E-F3B1-4AD5-8E7D-16E4A123224A}
 		{972B4F5F-31B2-4F42-865D-CF97E5A9042E} = {113F5E6E-F3B1-4AD5-8E7D-16E4A123224A}
 		{0F7CF5AB-57CD-40B4-B4BC-280385329694} = {973442C4-FB0F-4FEA-BB1E-F685D92AA26E}
+		{1D119279-33A2-49EE-A648-90F951DAB973} = {973442C4-FB0F-4FEA-BB1E-F685D92AA26E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {86ADC084-455F-4420-93EC-96376F36B3BA}
