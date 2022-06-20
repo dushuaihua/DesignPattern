@@ -1,4 +1,4 @@
-﻿namespace BuilderPattern.Concretes.Wuling;
+﻿namespace BuilderPattern.Concretes;
 
 public class WulingChassis : Chassis
 {

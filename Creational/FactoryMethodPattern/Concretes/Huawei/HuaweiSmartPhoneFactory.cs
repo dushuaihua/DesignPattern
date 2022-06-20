@@ -1,6 +1,6 @@
 ﻿using FactoryMethodPattern.Abstracts;
 
-namespace FactoryMethodPattern.Concretes.Huawei;
+namespace FactoryMethodPattern.Concretes;
 
 public class HuaweiSmartPhoneFactory : ISmartPhoneFactory
 {

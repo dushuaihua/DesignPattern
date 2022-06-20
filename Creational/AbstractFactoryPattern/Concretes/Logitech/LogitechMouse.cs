@@ -1,6 +1,6 @@
 ﻿using AbstractFactoryPattern.Abstracts;
 
-namespace AbstractFactoryPattern.Concretes.Logitech;
+namespace AbstractFactoryPattern.Concretes;
 
 public class LogitechMouse : Mouse
 {

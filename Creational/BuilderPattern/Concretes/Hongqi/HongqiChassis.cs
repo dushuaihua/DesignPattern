@@ -1,4 +1,4 @@
-﻿namespace BuilderPattern.Concretes.Hongqi;
+﻿namespace BuilderPattern.Concretes;
 
 public class HongqiChassis : Chassis
 {

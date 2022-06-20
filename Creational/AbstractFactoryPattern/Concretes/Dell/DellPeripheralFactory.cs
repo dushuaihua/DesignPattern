@@ -1,6 +1,6 @@
 ﻿using AbstractFactoryPattern.Abstracts;
 
-namespace AbstractFactoryPattern.Concretes.Dell;
+namespace AbstractFactoryPattern.Concretes;
 
 public class DellPeripheralFactory : IPeripheralFactory
 {
