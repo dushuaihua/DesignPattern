@@ -23,7 +23,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdapterPattern", "Structura
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BridgePattern", "Structural\BridgePattern\BridgePattern.csproj", "{1D119279-33A2-49EE-A648-90F951DAB973}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompositePattern", "Structural\CompositePattern\CompositePattern.csproj", "{88EBE20F-2A1B-4B74-9CB9-30FED209C48F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CompositePattern", "Structural\CompositePattern\CompositePattern.csproj", "{88EBE20F-2A1B-4B74-9CB9-30FED209C48F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DecoratorPattern", "Structural\DecoratorPattern\DecoratorPattern.csproj", "{A7E4CBFB-5DDA-467A-AB0D-7807C7BF0930}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +65,10 @@ Global
 		{88EBE20F-2A1B-4B74-9CB9-30FED209C48F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{88EBE20F-2A1B-4B74-9CB9-30FED209C48F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{88EBE20F-2A1B-4B74-9CB9-30FED209C48F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7E4CBFB-5DDA-467A-AB0D-7807C7BF0930}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7E4CBFB-5DDA-467A-AB0D-7807C7BF0930}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7E4CBFB-5DDA-467A-AB0D-7807C7BF0930}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7E4CBFB-5DDA-467A-AB0D-7807C7BF0930}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -76,6 +82,7 @@ Global
 		{0F7CF5AB-57CD-40B4-B4BC-280385329694} = {973442C4-FB0F-4FEA-BB1E-F685D92AA26E}
 		{1D119279-33A2-49EE-A648-90F951DAB973} = {973442C4-FB0F-4FEA-BB1E-F685D92AA26E}
 		{88EBE20F-2A1B-4B74-9CB9-30FED209C48F} = {973442C4-FB0F-4FEA-BB1E-F685D92AA26E}
+		{A7E4CBFB-5DDA-467A-AB0D-7807C7BF0930} = {973442C4-FB0F-4FEA-BB1E-F685D92AA26E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {86ADC084-455F-4420-93EC-96376F36B3BA}

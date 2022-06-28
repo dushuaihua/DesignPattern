@@ -2,7 +2,7 @@
 {
     public class ContainerComponent : IComponent
     {
-        List<IComponent> components = new List<IComponent>();
+        private readonly List<IComponent> components = new();
 
         public IReadOnlyList<IComponent> Components { get { return components; } }
 
